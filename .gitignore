@@ -1,0 +1,20 @@
+# macOS system files
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+
+# Virtual environments
+env/
+venv/
+ENV/
+VENV/
+.venv/
+.ENV/
+.venv/

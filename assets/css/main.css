@@ -3759,7 +3759,44 @@ input, select, textarea {
 			}
 
 		}
+	
+/* image layouts of the Expierence and Projects sections */
+		.experience-image {
+			width: 300px; /* Adjust the width as needed */
+			height: 150px; /* Adjust the height as needed */
+			object-fit: contain; /* Maintain aspect ratio and fit within the container */
+			margin-bottom: 1rem; /* Add some spacing between the image and text */
+			border: 1px solid black; /* Add a black border with a width of 5 pixels */
+		}
 
+		.experience-image-projects {
+			width: 300px; /* Adjust the width as needed */
+			height: 150px; /* Adjust the height as needed */
+			object-fit: contain; /* Maintain aspect ratio and fit within the container */
+			margin-bottom: 1rem; /* Add some spacing between the image and text */
+		}
+
+		.experience-image:hover {
+			/* Increase image size slightly on hover */
+			transform: scale(1.1);
+			transition: transform 0.2s ease-in-out;  /* Smooth transition effect */
+			
+			/* Add a subtle color shift on hover */
+			filter: saturate(1.2);  /* Increase color saturation */
+			/* Optional: Add a slight shadow on hover */
+			/* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); */
+		  }
+
+		  .experience-image-projects:hover {
+			/* Increase image size slightly on hover */
+			transform: scale(1.1);
+			transition: transform 0.2s ease-in-out;  /* Smooth transition effect */
+			
+			/* Add a subtle color shift on hover */
+			filter: saturate(1.2);  /* Increase color saturation */
+			/* Optional: Add a slight shadow on hover */
+			/* box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); */
+		  }
 /* Wrapper */
 
 	#wrapper {
@@ -3783,3 +3820,109 @@ input, select, textarea {
 			}
 
 		}
+
+/* Passsions section styling */
+/* Passions section styling */
+/* Slideshow container */
+.slider-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.slides {
+    display: none;
+}
+
+/* Make the images responsive and cover the container */
+.slides img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover; /* This ensures the images cover the container while maintaining aspect ratio */
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+/* More Details styling */
+.details {
+    margin-top: 2em;
+}
+
+.details h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5em;
+}
+
+.details ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    color: #555;
+}
+
+.details ul li {
+    margin-bottom: 0.5em;
+}
+
+.details ul li strong {
+    color: #333;
+}
+
+/* Resume download styling */
+.resume-download {
+    margin-top: 2em;
+}
+
+.resume-download h3 {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 0.5em;
+}
+
+.resume-download a {
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.resume-download a:hover {
+    background-color: #0056b3;
+}
+
+.resume-download a i {
+    margin-right: 0.5em;
+}
+

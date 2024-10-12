@@ -1,31 +1,29 @@
-Stellar by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Alexander Nicholas Kentaro Wood - Personal Portfolio
 
+Welcome to my personal portfolio website! This project showcases my experience, projects, and passions, built with HTML, CSS, and JavaScript.
 
-Say hello to Stellar, a slick little one-pager with a super vibrant color palette (which
-I guess you can always tone down if it's a little too vibrant for you), a "sticky" in-page
-nav bar (powered by my Scrollex plugin), a separate generic page template (just in case
-you need one), and an assortment of pre-styled elements.
+## Website Overview
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+This portfolio website is a personal showcase of my skills, experience, and projects. It includes sections such as:
 
-(* = not included)
+- **Introduction**: A brief overview of my background, interests, and career goals.
+- **Experience**: Details of my work as a mentor, assistant, and team member.
+- **Projects**: A selection of projects, including links to their respective GitHub repositories.
+- **Passions**: Insight into my personal hobbies like football and Taiko drumming.
 
-AJ
-aj@lkn.io | @ajlkn
+### Technologies Used:
+- HTML5
+- CSS3
+- JavaScript
 
+## Project Structure
 
-Credits:
+- `index.html`: The main HTML file that structures the website.
+- `assets/css/main.css`: The main stylesheet for the website.
+- `assets/css/noscript.css`: Fallback stylesheet for users with JavaScript disabled.
+- `assets/js/`: Folder containing JavaScript files for site functionality.
 
-	Demo Images:
-		Unsplash (unsplash.com)
+## Preview
 
-	Icons:
-		Font Awesome (fontawesome.io)
+![Website Screenshot](images/pic01.jpg)
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)

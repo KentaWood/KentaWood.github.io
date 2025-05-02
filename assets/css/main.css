@@ -3926,3 +3926,6 @@ input, select, textarea {
     margin-right: 0.5em;
 }
 
+.spotlight p {
+    margin-bottom: 1.2rem; /* adds space below each paragraph */
+}
